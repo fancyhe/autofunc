@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "autofunc"
+version = "0.1.0"
+description = "Prototype: Create & Run Automation by LLM Function Calling & RAG."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+python-dotenv = "^1.0.1"
+jsonref = "^1.1.0"
+argparse = "^1.4.0"
+rich = "^13.7.1"
+requests = "^2.32.2, <2.32.3"
+docstring-parser = "^0.16"
+llama-index-core = "^0.11.21"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
